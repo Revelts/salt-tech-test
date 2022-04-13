@@ -1,0 +1,9 @@
+Class:
+A class is a blue-print prototype model. 
+A class would have Modifiers, class name, superclass / interface (if there is any), constructors and Method
+
+Interface: 
+an interface is an abstract type that tells the compiler which property names a given object can have
+
+Abstract Class
+Abstract class is a class that doesnt have any method and body.

@@ -1,0 +1,26 @@
+Git Graph
+
+Available Branch 
+> Master
+> Hotfix
+> Release
+> Develop
+> Feature
+> Feature
+
+Storyline
+
+Vito, Niki and Jack are in the same Team, which is Team A.
+
+>Team A asked to continue an application development
+>Team A start at Master on version v0.1
+>Team A Initiate a Develop Branch
+--> Niki initiate a hotfix branch to fix bug in the mean time
+-> Vito initiate a feature branch to start development
+-> Jack initiate a feature branch to start development
+--> Niki finish the hotfix, her hotfix branch up to develop branch and master branch and she created new version of master after she ask for merge a pull request
+-> Vito and Jack merged their branch into new branch after taking newest commits from develop branch
+-> Develop branch up to release branch
+--> release branch has new commits and updated
+-> Master branch updated with release update with new version v1.0
+-> Development Continue using release branch.

@@ -1,0 +1,24 @@
+The different within 'git rebase' and 'git merge' is 
+- Git Rebase -> Git rebase actually reapplies our commits on top of another base branch, it doesnt merge histories commits etc.
+- Git Merge -> Git merge actually joins two or more current development commits OR histories commits on the branch together into one.
+
+Example Merge & Rebase: 
+>Niki completed her feature/voicecall
+>Jack completed his feature/videocall
+>There would be a master branch.
+
+[MERGE]
+1. Niki merge his branch into master
+2. Jack want to keep all history on master branches.
+3. Jack use merge method by doing recursive strategy.
+3. Jack making sure his local and remote master branches are in sync
+4. Jack 'git checkout master' Then 'git pull' Master branch.
+5. Jack 'git checkout feature/videocall' branch then Merge into master keeping all commits history.
+
+[REBASE]
+1. Niki merge his branch into master
+2. Jack want to re-write history on master branches
+3. Jack making sure his local and remote master branches are in sync
+4. Jack 'git checkout master' Then 'git pull' Master branch.
+5. Jack 'git rebase master feature/videocall' branch then Git will rewind and reapply the commits
+
